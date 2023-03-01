@@ -149,7 +149,7 @@ function cantidadGanada (porcentaje){
     let resta2 = cuentas (resta , DineroInicial, apuesta)
 
     alert (  "a usted le quedaban " + (cuentas (resta , DineroInicial, apuesta)) + "$")
-    alert (  "a usted le quedan " + (cuentas (suma2 , resta2, suma)) + "$")
+    alert (  "usted termino con " + (cuentas (suma2 , resta2, suma)) + "$")
 
 }
 cantidadGanada()
