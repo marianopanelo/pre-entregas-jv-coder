@@ -1,4 +1,25 @@
+alert ("casi.no, con el mejor multiplicador")
+let comparar = prompt ("desea comparar?") 
 
+if (comparar == "si" ){
+let casinos = [ 
+    {nombre : "casirin" , multiplicador:" x 1.5"},
+    {nombre : "lo de nona" , multiplicador:" x 2.1"},
+    {nombre : "latiradita" , multiplicador:" x 1.9"},
+    {nombre : "az de espada" , multiplicador:" x 2.5"},
+    {nombre : "casi.no" , multiplicador: " x 3"},
+
+]
+
+for(casino of casinos){
+    alert(casino.nombre + casino.multiplicador)
+}
+}
+
+else {
+    alert ("gracias por confiar en nostros")
+}
+/**/
 
 /*crear usuario*/
 let Usuario = prompt ("desea crear un nuevo usuario?")
@@ -149,7 +170,7 @@ function cantidadGanada (porcentaje){
     let resta2 = cuentas (resta , DineroInicial, apuesta)
 
     alert (  "a usted le quedaban " + (cuentas (resta , DineroInicial, apuesta)) + "$")
-    alert (  "usted termino con " + (cuentas (suma2 , resta2, suma)) + "$")
+    alert (  "a usted le quedan " + (cuentas (suma2 , resta2, suma)) + "$")
 
 }
 cantidadGanada()
